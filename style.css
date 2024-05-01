@@ -169,14 +169,64 @@ optional:
     gap: 5rem;
     height: 80vh;
 }
-
+.image-text-container {
+    display: flex;
+    flex-direction: row;
+}
 .section__pic-container {
     display: flex;
     height: 400px;
     width: 400px;
     margin: auto 0;
+    /*justify-content: center;*/
 }
 
+/* Add this CSS to style.css */
+
+.profile-container {
+    display: flex;
+    justify-content: space-around;
+}
+.profile-box {
+    border: 2px solid #1ec748; /* Border color */
+    border-radius: 10px; /* Optional: Rounded corners */
+    padding: 10px; /* Optional: Padding around the image */
+    display: inline-block;
+    height: 200px; /* Fixed height for the container */
+    width: 200px; /* Optional: Fixed width for the container */
+    overflow: hidden; /* Prevent images from overflowing the container */
+}
+
+.profile {
+    text-align: center;
+}
+
+.about-pic {
+    max-width: 100%; /* Set maximum width to prevent images from exceeding container width */
+    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* Set width to fill the container */
+    border-radius: 6px; /* Optional: Add rounded corners to the images */
+}
+
+.profile-text {
+    margin-top: 1rem; /* Adjust as needed */
+}
+
+.profile-text h3 {
+    margin-bottom: 0.5rem;
+}
+
+.profile-text p {
+    margin: 0;
+}
+
+.section__pic-profile {
+    display: flex;
+    height: 400px;
+    width: 600px;
+    margin: auto 0;
+    justify-content: left;
+}
 .section__text {
     align-self: center;
     text-align: center; 
@@ -268,7 +318,9 @@ optional:
 }
 
 .about-pic {
-    border-radius: 2rem;
+    /*border-radius: 2rem;*/
+    width: auto;
+    height: auto;
 }
 
 .arrow {
