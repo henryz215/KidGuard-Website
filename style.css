@@ -178,6 +178,7 @@ optional:
     height: 400px;
     width: 400px;
     margin: auto 0;
+    
     /*justify-content: center;*/
 }
 
@@ -231,9 +232,12 @@ optional:
     height: 400px;
     width: 600px;
     margin: auto 0;
-    justify-content: left;
+    align-content: center;
+    border: rgb(173, 31, 6) 0.2rem solid;
+    border-color: rgb(173, 31, 6);
 }
 .section__text {
+    justify-content: center;
     align-self: center;
     text-align: center; 
 }
@@ -245,6 +249,7 @@ optional:
 .section__text__p1 {
     font-size: 1.25rem;
     text-align: center;
+    align-self: center;
 }
 
 .section__text__p2 {
