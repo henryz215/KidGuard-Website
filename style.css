@@ -332,6 +332,8 @@ optional:
     /*border-radius: 2rem;*/
     width: auto;
     height: auto;
+    flex-direction: column;
+    display: flex;
 }
 
 .arrow {
