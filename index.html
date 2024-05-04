@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head></head>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
@@ -16,14 +16,13 @@
     <div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#Documentation">Documentation</a></li>
-        <li><a href="#Progress">Progress</a></li>
+        <li><a href="#documentation">Documentation</a></li>
+        <li><a href="#progress">Progress</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
-</nav>
+  </nav>
 
-<!--I broke the hamburger idk how to fix but haven't really tried to resurrect it-->
   <nav id="hamburger-nav">
     <div class="logo">KidGuard</div>
     <div class="hamburger-menu">
@@ -33,39 +32,24 @@
         <span></span>
       </div>
       <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#Documentation" onclick="toggleMenu()">Documentation</a></li>
-        <li><a href="#Progress" onclick="toggleMenu()">Progress</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#documentation">Documentation</a></li>
+        <li><a href="#progress">Progress</a></li>
+        <li><a href="#contact">Contact</a></li>
       </div>
     </div>
   </nav>
 
-
   <section id="profile">
-    <p class="section__text__p1">Hello, we're</p>
-    <h1 class="title">KidGuard</h1>
-    <p> <br>  </br> </p>
-
-  </div>
-  <div class="section__pic-profile">
-    <img src="./assets/KidGuard Opening img.png" alt="KidGuard profile picture" style="height: auto; width: auto;"/>
-  </div>
-      <!--<div class="btn-container">
-        <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Download CV</button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
-      </div>
-      <div id="socials-container">
-        <img src="./assets/linkedin.png" 
-        alt="My LinkedIn profile" 
-        class="icon" 
-        onclick="location.href='https://www.linkedin.com/in/henry-zheng-06860a259'"/>
-      
-        <img src="./assets/github.png" 
-        alt="My github profile" 
-        class="icon" 
-        onclick="location.href='https://github.com/henryz215'"/>
-      </div>-->
+    <div class="section__pic-container">
+      <img src="./assets/Henry KidGuard.png" alt="Henry Zheng profile picture"/>
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1"> Hello, we're</p>
+      <img
+      src="./assets/KidGuard.PNG"
+      alt="Profile picture"
+      class="logo-pic"/>
     </div>
   </section>
 
@@ -73,322 +57,213 @@
     <p class="section__text__p1">Get to Know More</p>
     <h1 class="title">About Us</h1>
     <div class="section-container">
-        <div class="profile-container">
-            <div class="profile">
-                <img src="./assets/Henry KidGuard.png" alt="Henry's Profile picture" class="about-pic"/>
-                <div class="profile-text">
-                    <h3>Henry Zheng</h3>
-                    <p>Team Lead and Communications Lead</p>
-
-                  </div>
-            </div><div class="profile">
-              <img src="./assets/Erin KidGuard.jpg" alt="Erin's Profile picture" class="about-pic"/>
-              <div class="profile-text">
-                  <h3>Erin Howell</h3>
-                  <p>Thermal System Lead</p>
-
-                </div>
-          </div><div class="profile">
-            <img src="./assets/Jonathan Lee headshot.jpg" alt="Jonathan's Profile picture" class="about-pic"/>
-            <div class="profile-text">
-                <h3>Jonathan Lee</h3>
-                <p>Thermal System and Communications</p>
-
-            </div>
-        </div><div class="profile">
-          <img src="./assets/Landon KidGuard.png" alt="Landon's Profile picture" class="about-pic"/>
-          <div class="profile-text">
-              <h3>Landon Baker</h3>
-              <p>Weight Detection and Communications</p>
-            </div>        
-      </div><div class="profile">
-        <img src="./assets/Micah KidGuard.jpg" alt="Micah's Profile picture" class="about-pic"/>
-        <div class="profile-text">
-            <h3>Micah Pickering</h3>
-            <p>Weight Detection Lead</p>
-
-          </div>
-          <p> <br>  </br> </p>
-          <p> <br>  </br> </p>
-
-    </div>
-            <!-- Repeat this structure for other profiles -->
-        </div>
-    </div>
-    <!--<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>-->
-</section>
-
-<section id="Documentation">
+      <div class="profile">
+        <img src="./assets/Henry KidGuard.png" 
+          alt="Henry's Profile picture" 
+          class="about-pic"
+        />
+        <h1 class="section__text__p1">Henry Zheng</h1>
+        <p class="section__text__p1">Team Lead<br>Communication Lead</br></p>
       </div>
-      <p> <br>  </br> </p>
-      <p> <br>  </br> </p>
-      <p> <br>  </br> </p>
-      <p> <br>  </br> </p>
-
-      <h1 class="title">Our Documentation</h1>
-      <div class="about-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <!--<img src="./assets/education.png"
-              alt="Education icon"
-              class="icon"
-            />-->
-            <h3>Our Problem Statement</h3>
-            <p> <br>  </br> </p>
-            <div class="btn-container">
-              <button class="btn btn-color-2" onclick="window.open('./assets/Problem Statement.pdf')">Download</button>
-            </div>
-            
-          </div>
-          <div class="details-container">
-            <!--<img src="./assets/education.png"
-              alt="Education icon"
-              class="icon"
-            />-->
-            <h3>Our Requirements</h3>
-            <p> <br>  </br> </p>
-            <div class="btn-container">
-              <button class="btn btn-color-2" onclick="window.open('./assets/KidGuard_DesignRequirementSpecifications_Final (2).pdf')">Download</button>
-            </div>
-            
-          </div>
-          <div class="details-container">
-             <!--<img src="./assets/education.png"
-              alt="Education icon"
-              class="icon"
-            />-->
-            <h3>Our Approach</h3>
-            <p> <br>  </br> </p>
-            <div class="btn-container">
-              <button class="btn btn-color-2" onclick="window.open('./assets/KidGuard_Approach_Final.pdf')">Download</button>
-            </div>
-            
-          </div>
-          <div class="details-container">
-            <!--<img src="./assets/education.png"
-              alt="Education icon"
-              class="icon"
-            />-->
-            <h3>Our Executive Summary</h3>
-            <p> <br>  </br> </p>
-            <div class="btn-container">
-              <button class="btn btn-color-2" onclick="window.open('./assets/Executive_Summary_Rough_Draft.pdf')">Download</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--<img 
-      src="./assets/arrow.png" 
-      alt="Arrow icon" 
-      class="icon arrow"
-      onclick="location.href='./#experience'"
-    />-->
-  </section>
-
-
-  <section id="Progress">
-    <!--<p class="section__text__p1"></p>-->
-    <h1 class="title">Explore Our Progress</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        
-        <!-- Communication -->
-        <div class="details-container">
-          <div class="article-container">
-            
-              <h2 class="experience-sub-title">Communication</h2>
-              <p>  &nbsp; </p>
-              <div class="video-container">
-                <article>
-                  <video controls style="max-width: 100%; height: auto;">
-                    <source src="./assets/Lora muted.mov"  alt="LoRa video"></source>
-                </video>
-                </article>
-              </div>
-          
-          </div>
-        </div>
-        
-        <!-- Weight Detection -->
-        <div class="details-container">
-          <div class="article-container">
-              <h2 class="experience-sub-title">Weight Detection</h2>
-              <p>grams</p>
-              <div class="video-container">
-                <article>
-                  <video controls style="max-width: 100%; height: auto;">
-                    <source src="./assets/Weight Detection Video.mov"  alt="Weight Detection video"></source>
-                </video>
-                </article>
-
-                </div>
-          </div>
-        </div>
-        
-        <!-- Thermal Detection -->
-        <div class="details-container">
-          <div class="article-container">
-            
-              <h2 class="experience-sub-title">Thermal Detection</h2>
-              <p>celsius</p>
-              <div class="video-container">
-                <article>
-                  <video controls style="max-width: 100%; height: auto;">
-                    <source src="./assets/Thermal Video.mov"  alt="Thermal video"></source>
-                </video>
-              </article>
-              </div>
-           
-          </div>
-        </div>
-        
-        
-        
-      </div>
+      <div class="profile">
+        <img src="./assets/Landon KidGuard.png" 
+          alt="Landon's Profile picture" 
+          class="about-pic"
+        />
+        <h1 class="section__text__p1">Landon Baker</h1>
+        <p class="section__text__p1">Weight Detection<br>Communication</br></p>
+      </div>    
+      <div class="profile">
+        <img src="./assets/Jonathan Lee headshot.jpg" 
+          alt="Jonathan's Profile picture" 
+          class="about-pic"
+        />
+        <h1 class="section__text__p1">Jonathan Lee</h1>
+        <p class="section__text__p1">Thermal System <br>Communication</br></p>
+      </div>    
+      <div class="profile">
+        <img src="./assets/Micah KidGuard.jpg" 
+          alt="MIcah's Profile picture" 
+          class="about-pic"
+        />
+        <h1 class="section__text__p1">Micah Pickering</h1>
+        <p class="section__text__p1">Weight Detection Lead</p>
+      </div>     
+      <div class="profile">
+        <img src="./assets/Erin KidGuard.jpg" 
+          alt="Erin's Profile picture" 
+          class="about-pic"
+        />
+        <h1 class="section__text__p1">Erin Howell</h1>
+        <p class="section__text__p1">Thermal System Lead</p>
+      </div>     
     </div>
 </section>
 
+<section id="documentation">
+<h1 class="title">Our Documentation</h1>
+<div class="about-details-container">
+  <div class="about-containers">
+    <div class="details-container">
+      <h2 class="project-title">Problem</h2>
+      <h2 class="project-title">Statement</h2>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/KidGuard_DesignRequirementSpecifications_Final (2).pdf')">Download PDF</button>
+        <img src="./assets/document.png"
+        alt="Education icon"
+        class="icon"
+        />
+      </div>
+    </div>
+    <div class="details-container">
+      <h2 class="project-title">Constraints and</h2>
+      <h2 class="project-title">Requirements</h2>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/KidGuard_DesignRequirementSpecifications_Final (2).pdf')">Download PDF</button>
+        <img src="./assets/document.png"
+        alt="Education icon"
+        class="icon"
+        />
+      </div>
+    </div>
+    <div class="details-container">
+      <h2 class="project-title">Approach</h2>
+      <h2 class="project-title">Document</h2>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/KidGuard_DesignRequirementSpecifications_Final (2).pdf')">Download PDF</button>
+        <img src="./assets/document.png"
+        alt="Education icon"
+        class="icon"
+        />
+      </div>
+    </div>
+    <div class="details-container">
+      <h2 class="project-title">Executive</h2>
+      <h2 class="project-title">Summary</h2>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/KidGuard_DesignRequirementSpecifications_Final (2).pdf')">Download PDF</button>
+        <img src="./assets/document.png"
+        alt="Education icon"
+        class="icon"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+</section>
 
-
- <!-- <section id="projects">
+  <section id="progress">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h2>
     <div class="experience-details-container">
       <div class="about-containers">
         <div class="details-container color-container">
           <div class="article-container">
-            <img 
-              src="./assets/RT_Sphere.png"
-              alt="Ai Generated Ray Tracing Image"
-              class="project-img"
-            />
+            <video controls style="max-width: 50%; height: 75%;">
+              <source src="./assets/Weight Detection Video.mov"  alt="Weight Detection video"></source>
+            </video>
           </div>
-          <h2 class="experience-sub-title project-title">Ray Tracing</h2>
-          <div class="btn-container">
-          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/henryz215/Graphics'">
-            Github
-          </button>
-          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-            Live Demo
-            </button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img 
-              src="./assets/SeniorDesign.webp"
-              alt="Project 2"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">KidGuard</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.canva.com/design/DAGCB4q1_cg/9K16ePpNjR3RZThlyhypiQ/edit?utm_content=DAGCB4q1_cg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'">
-              Canva
-            </button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img 
-              src="./assets/project-3.png"
-              alt="Project 3"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">In Progress</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-              Live Demo
-            </button>
-          </div>
-        </div>
-      </div>
-      <img 
-      src="./assets/arrow.png" 
-      alt="Arrow icon" 
-      class="icon arrow"
-      onclick="location.href='./#contact'"
-      />
-    </div>
-  </section>-->
+          <h2 class="experience-sub-title project-title">Weight Detection</h2>
 
-  <section id="contact">
-    <p class="section__text__p1">Get in Touch with the Team</p>
-    <h1 class="title">Contact us</h1>
-    <div class="contact-info-upper-container">
-      <div class="contact-info-container">
-        <img 
-          src="./assets/email.png" 
-          alt="Email icon" 
-          class="icon contact-icon email-icon"
-        />
-        <p><a href="mailto:hz215@msstate.edu">hz215@msstate.edu</a></p>
-      </div>
-      <div class="contact-info-container">
-        <img 
-          src="./assets/email.png" 
-          alt="Email icon" 
-          class="icon contact-icon email-icon"
-        />
-        <p><a href="mailto:erh297@msstate.edu">erh297@msstate.edu</a></p>
         </div>
-        <div class="contact-info-container">
-          <img 
-            src="./assets/email.png" 
-            alt="Email icon" 
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:jal807@msstate.edu">jal807@msstate.edu</a></p>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <video controls style="max-width: 50%; height: 75%;">
+              <source src="./assets/Thermal Video.mov"  alt="Weight Detection video"></source>
+            </video>
+          </div>
+          <h2 class="experience-sub-title project-title">Thermal Sensor</h2>
         </div>
-        <div class="contact-info-container">
-          <img 
-            src="./assets/email.png" 
-            alt="Email icon" 
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:lwb139@msstate.edu">lwb139@msstate.edu</a></p>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <video controls style="max-width: 50%; height: 75%;">
+              <source src="./assets/Lora muted.mov"  alt="Weight Detection video"></source>
+            </video>
+          </div>
+          <h2 class="experience-sub-title project-title">LoRa Communication</h2>
         </div>
-      <div class="contact-info-container">
-        <img 
-          src="./assets/email.png" 
-          alt="Email icon" 
-          class="icon contact-icon email-icon"
-        />
-        <p><a href="mailto:mpp171@msstate.edu">mpp171@msstate.edu</a></p>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img 
+              src="./assets/KidGuardGUI_qr.png"
+              alt="GUI QR Code"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">KidGuard GUI</h2>
+        </div>
+        
       </div>
-      </div>
-      <!--<div class="contact-info-container">
-        <img 
-          src="./assets/linkedin.png" 
-          alt="LinkedIn icon" 
-          class="icon contact-icon"
-        />
-        <p><a href="https://www.linkedin.com/in/henry-zheng-06860a259">LinkedIn</a></p>
-      </div>-->
     </div>
   </section>
+
+  <section id="contact">
+    <p> <br>  </br> </p>
+    <p> <br>  </br> </p>
+      <p class="section__text__p1">Get in Touch with the Team</p>
+      <h1 class="title">Contact us</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img 
+            src="./assets/email.png" 
+            alt="Email icon" 
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:hz215@msstate.edu">hz215@msstate.edu</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img 
+            src="./assets/email.png" 
+            alt="Email icon" 
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:erh297@msstate.edu">erh297@msstate.edu</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img 
+              src="./assets/email.png" 
+              alt="Email icon" 
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:jal807@msstate.edu">jal807@msstate.edu</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img 
+              src="./assets/email.png" 
+              alt="Email icon" 
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:lwb139@msstate.edu">lwb139@msstate.edu</a></p>
+          </div>
+        <div class="contact-info-container">
+          <img 
+            src="./assets/email.png" 
+            alt="Email icon" 
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:mpp171@msstate.edu">mpp171@msstate.edu</a></p>
+        </div>
+      </div>    
+    </section>
+
+
+
   <footer>
     <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#Documentation">Documentation</a></li>
-            <li><a href="#Progress">Progress</a></li>
+            <li><a href="#documentation">Documentation</a></li>
+            <li><a href="#progress">Progress</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
     </nav>
     <p>Copyright &#169; 2024 KidGuard. All Rights Reserved.</p>
   </footer>
-
   <script src="script.js"></script>
 </body>
 

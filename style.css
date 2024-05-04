@@ -9,6 +9,7 @@
 
 body {
     font-family: "Poppins", monospace;
+    background: #ebe4e0;
 }
 
 html {
@@ -159,86 +160,29 @@ optional:
 }
 */
 .section-container {
-    display: flex;
+    display: inline-flex;
 }
 
 /* PROFILE SECTION */
 #profile {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 5rem;
     height: 80vh;
 }
-.image-text-container {
-    display: flex;
-    flex-direction: row;
+
+.border {
+    border-radius: 50%;
 }
+
 .section__pic-container {
     display: flex;
-    height: auto;
-    width: auto;
+    height: 400px;
+    width: 400px;
     margin: auto 0;
-    
-    /*justify-content: center;*/
 }
 
-/* Add this CSS to style.css */
-
-.profile-container {
-    display: flex;
-    width: 100;
-    height: 100px;
-    justify-content: space-around;
-}
-.profile-box {
-    border: 2px solid #1ec748; /* Border color */
-    border-radius: 10px; /* Optional: Rounded corners */
-    padding: 10px; /* Optional: Padding around the image */
-    display: inline-block;
-    height: 200px; /* Fixed height for the container */
-    width: 200px; /* Optional: Fixed width for the container */
-    overflow: hidden; /* Prevent images from overflowing the container */
-}
-
-.profile {
-    text-align: center;
-}
-
-.about-pic {
-    max-width: 100%; /* Set maximum width to prevent images from exceeding container width */
-    height: auto; /* Maintain aspect ratio */
-   /* width: 100%; /* Set width to fill the container */
-    border-radius: 6px; /* Optional: Add rounded corners to the images */
-    border-radius: 2rem;
-    border: rgb(10, 7, 145) 0.15rem solid;
-    border-color: rgb(10, 7, 145);
-    
-}
-
-.profile-text {
-    margin-top: 1rem; /* Adjust as needed */
-}
-
-.profile-text h3 {
-    margin-bottom: 0.5rem;
-}
-
-.profile-text p {
-    margin: 0;
-}
-
-.section__pic-profile {
-    display: flex;
-    height: auto;
-    width: auto;
-    margin: auto 0;
-    align-content: center;
-    border: rgb(173, 31, 6) 0.2rem solid;
-    border-color: rgb(173, 31, 6);
-}
 .section__text {
-    justify-content: center;
     align-self: center;
     text-align: center; 
 }
@@ -250,8 +194,7 @@ optional:
 .section__text__p1 {
     font-size: 1.25rem;
     text-align: center;
-    align-self: center;
-    margin-bottom: 1rem;
+    color: black;
 }
 
 .section__text__p2 {
@@ -273,6 +216,7 @@ optional:
 
 /* ICONS */
 .icon {
+    padding-top: 0.5rem;
     cursor: pointer;
     height: 2rem;
 }
@@ -282,13 +226,14 @@ optional:
     display: flex;
     justify-content: center;
     gap: 1rem;
+    text-align: left;
 }
 
 .btn {
     font-weight: 600;
     transition: all 300ms ease;
     padding: 1rem;
-    width: 8rem;
+    width: 10rem;
     border-radius: 2rem;
 }
 
@@ -318,7 +263,7 @@ optional:
 }
 
 .about-containers {
-    gap: 2rem;
+    gap: 1rem;
     display: flex;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -331,13 +276,21 @@ optional:
 }
 
 .about-pic {
-    /*border-radius: 2rem;*/
-    width: auto;
-    height: auto;
-    flex-direction: column;
-    display: flex;
+    max-width: 75%;
+    max-height: 75%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+.logo-pic {
+    max-width: 75%;
+    max-height: 75%;
+    border-radius: 0rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .arrow {
     position: absolute;
     right: -5rem;
@@ -345,13 +298,14 @@ optional:
 }
 
 .details-container {
-    padding: 1.5rem;
+    padding: 3rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    width: 10rem;
 }
 
 .section-container {
@@ -382,30 +336,21 @@ optional:
 }
 
 .experience-sub-title {
-    color: rgb(85, 85, 85);
+    color: black;
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
-/* CSS for video containers */
 .article-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 2rem; /* Adjust as needed */
-  }
-  
-  /* CSS for video elements */
- /* CSS for video elements */
-.article-container video {
-    width: 100%; /* Set the width to fill the container */
-    max-width: 800px; /* Set a maximum width for the video */
-    height: auto; /* Maintain the aspect ratio */
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
 }
-
 
 article {
     display: flex;
@@ -435,7 +380,10 @@ article .icon {
 }
 
 .project-title {
-    margin: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-bottom: auto;
+    margin-top: auto;
     color: black;
 }
 
@@ -450,7 +398,8 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 80vh;
+    padding-bottom: 10rem;
 }
 
 .contact-info-upper-container {
@@ -487,7 +436,7 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-    height: 26vh;
+    height: 40vh;
     margin: 0 1rem;
 }
 
