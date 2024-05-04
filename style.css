@@ -208,7 +208,7 @@ optional:
 .about-pic {
     max-width: 100%; /* Set maximum width to prevent images from exceeding container width */
     height: auto; /* Maintain aspect ratio */
-    width: 100%; /* Set width to fill the container */
+   /* width: 100%; /* Set width to fill the container */
     border-radius: 6px; /* Optional: Add rounded corners to the images */
     border-radius: 2rem;
     border: rgb(10, 7, 145) 0.15rem solid;
