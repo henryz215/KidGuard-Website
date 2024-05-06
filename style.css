@@ -169,7 +169,7 @@ optional:
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 50vh;
 }
 
 .border {
@@ -261,6 +261,7 @@ optional:
 /* ABOUT SECTION */
 #about {
     position: relative;
+    height: 50vh;
 }
 
 .about-containers {
@@ -285,8 +286,8 @@ optional:
     margin-right: auto;
 }
 .logo-pic {
-    max-width: 75%;
-    max-height: 75%;
+    max-width: 100%;
+    max-height: auto;
     border-radius: 0rem;
     display: block;
     margin-left: auto;
@@ -322,7 +323,7 @@ optional:
 
 .section__pic-container img {
     border-radius: 50%;
-    border: 10px solid rgb(90,157,238);
+    border: 10px solid #CF5D42;
 }
 /* EXPERIENCE SECTION */
 
